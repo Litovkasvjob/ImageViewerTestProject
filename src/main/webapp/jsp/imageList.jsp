@@ -20,7 +20,7 @@
             <tr>
                 <td><img src="${image.croppedPicture}"></td>
                 <td>
-                    <a href="${pageContext.request.contextPath}/images/${image.id}?token=${token}">Image List</a>
+                    <a href="${pageContext.request.contextPath}/images/${image.id}?token=${token}">Detail</a>
                 </td>
             </tr>
         </c:forEach>
